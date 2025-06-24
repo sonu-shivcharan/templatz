@@ -1,36 +1,114 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AI-Powered Formal Letter Generator (v3)
 
-## Getting Started
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-First, run the development server:
+Welcome to the **AI-Powered Formal Letter Generator**—a modern tool designed to help students and professionals quickly create formal letters for educational and official purposes. This version (v3) is a significant upgrade, introducing AI capabilities powered by the Gemini API for personalized letter generation.
+
+---
+
+## 🚀 Features
+
+- **AI-Generated Letters:** Generate formal letters (e.g., leave applications, permission requests) using natural language prompts.
+- **Student-Friendly:** Tailored for educational use, helping students create proper, context-aware formal correspondence.
+- **Template Support:** Still supports classic template-based letter creation for quick, standard formats.
+- **User-Friendly Interface:** Clean, intuitive UI for seamless letter drafting and editing.
+- **Export Options:** Download, copy, or print your generated letters.
+- **Gemini API Integration:** Leverages Gemini AI for improved letter quality and adaptability.
+- **Open Source:** MIT licensed for educational and personal use.
+
+---
+
+## ✨ What’s New in v3
+
+- **AI Integration:** Letters are now dynamically generated based on user input and context.
+- **Better Personalization:** Letters reflect user-specified tone, recipient, and subject matter.
+- **Improved UI/UX:** Enhanced interface for easier navigation and letter management.
+- **Performance Improvements:** Faster response and improved letter formatting.
+- **Extensible Architecture:** Easily add more templates or AI providers.
+
+---
+
+## 🛠️ Installation & Usage
+
+### Prerequisites
+
+- Node.js (v16+ recommended)
+- Gemini API key (for AI letter generation)
+
+### Clone the Repository
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/sonu-shivcharan/templatz.git
+cd templatz
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Install Dependencies
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Configure Environment
 
-## Learn More
+Create a `.env` file in the root directory:
 
-To learn more about Next.js, take a look at the following resources:
+```env
+GEMINI_API_KEY=your_gemini_api_key_here
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Run the Application
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+npm start
+```
 
-## Deploy on Vercel
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 💡 Usage Guide
+
+1. **Choose Letter Type:** Select from leave applications, permission letters, or other templates, or use the AI option.
+2. **Enter Prompt:** Describe your letter’s purpose and details in natural language.
+3. **Generate:** Click "Generate" to let Gemini AI create a draft.
+4. **Review & Edit:** Edit the draft as needed.
+5. **Export:** Download, copy, or print your letter.(Beta)
+
+---
+
+## 🔗 Related Projects
+
+- [AI-Powered Formal Letter Generator (v2)](https://github.com/sonu-shivcharan/formal-letter-template) — Template-based version.
+
+---
+
+## 🤖 Tech Stack
+
+- Frontend: React.js (or specify if another framework is used)
+- Backend: Node.js / Express (if applicable)
+- AI Service: Gemini API
+
+---
+
+## 📝 Contributing
+
+Contributions, issues, and feature requests are welcome!  
+Feel free to check the [issues page](https://github.com/sonu-shivcharan/formal-letter-template/issues).
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## 🙏 Acknowledgements
+
+Big thanks to the open source community and the creators of [Gemini API](https://ai.google.dev/gemini-api/docs/get-started) for empowering this project.
+
+---
+
+## 📬 Contact
+
+For questions or feedback, open an issue or contact [@sonu-shivcharan](https://github.com/sonu-shivcharan).
