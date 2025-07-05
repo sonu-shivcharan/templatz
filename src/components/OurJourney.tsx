@@ -117,8 +117,7 @@ export function OurJourney() {
                 Adding authentication for secure access to services.
               </li>
               <li className="relative pl-4 before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 before:w-2 before:h-2 before:bg-blue-500 before:rounded-full">
-                Developing an AI-powered ATS-friendly resume builder using
-                LangChain.
+                Developing an AI-powered ATS-friendly resume builder 
               </li>
             </ul>
             <div className="relative w-full h-48 md:h-64 rounded-md overflow-hidden shadow-md mb-4 col-span-1">
