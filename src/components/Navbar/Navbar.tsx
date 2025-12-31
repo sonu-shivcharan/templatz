@@ -45,20 +45,6 @@ function Navbar() {
                   setOpen={setMobileMenuOpen}
                 />
               </div>
-              {/* Desktop Menu */}
-              <div className="hidden md:flex space-x-4">
-                <Link href="/login">
-                  <Button className="font-semibold px-8 py-5">
-                    Login
-                    <LogIn className="h-10" />
-                  </Button>
-                </Link>
-                <Link href="/signup">
-                  <Button variant="outline" className="font-semibold px-8 py-5">
-                    Signup
-                  </Button>
-                </Link>
-              </div>
             </div>
 
             {/* Mobile Menu */}
