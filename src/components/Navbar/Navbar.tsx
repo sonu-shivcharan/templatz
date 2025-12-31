@@ -1,18 +1,18 @@
-"use client";
-import { Menubar } from "@/components/ui/menubar";
-import { cn } from "@/lib/utils";
-import { Button } from "../ui/button";
-import { ArrowLeft, LogIn } from "lucide-react";
-import Link from "next/link";
-import { useState } from "react";
-import { motion } from "motion/react";
-import { MenuIcon } from "../ui/menu-icon";
-import ToggleMode from "../ui/toggle-mode";
-import { usePathname } from "next/navigation";
-function Navbar() {
-  const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const pathname = usePathname();
-  console.log(pathname);
+// "use client";
+// import { Menubar } from "@/components/ui/menubar";
+// import { cn } from "@/lib/utils";
+// import { Button } from "../ui/button";
+// import { ArrowLeft, LogIn } from "lucide-react";
+// import Link from "next/link";
+// import { useState } from "react";
+// import { motion } from "motion/react";
+// import { MenuIcon } from "../ui/menu-icon";
+// import ToggleMode from "../ui/toggle-mode";
+// import { usePathname } from "next/navigation";
+// function Navbar() {
+//   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
+//   const pathname = usePathname();
+//   console.log(pathname);
 
   return (
     <div className="w-full fixed top-0 no-print z-50 px-4">
